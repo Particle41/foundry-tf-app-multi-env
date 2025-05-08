@@ -4,6 +4,8 @@
 
 ## Pre-requisites
 
+### cookiecutter
+
 Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable).
 
 We recommend using [uv](https://docs.astral.sh/uv/) to manage the Python environment. Below is one way to get started for [Homebrew](https://brew.sh) users. Follow the [cookiecutter installation instructions](https://cookiecutter.readthedocs.io/en/stable/installation.html) for other methods.
@@ -18,6 +20,29 @@ uv venv
 source .venv/bin/activate
 uv pip install cookiecutter
 ```
+
+### Other required tools
+
+- Install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+
+```sh
+brew install awscli
+```
+
+- Install [terraform](https://developer.hashicorp.com/terraform)
+
+```sh
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+```
+
+- Install [terraform-docs](https://terraform-docs.io/)
+
+```sh
+brew install terraform-docs
+```
+
+- Install the [EditorConfig](https://editorconfig.org/) extension for your editor (e.g., [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig))
 
 ## Run
 
